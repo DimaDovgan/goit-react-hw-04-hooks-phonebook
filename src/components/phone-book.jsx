@@ -1,7 +1,7 @@
 import { useState,useEffect,useRef} from "react"
-import { ContactList  } from "./person-list/person-list"
+import { ContactList  } from "./person-list/Person-list"
 import { nanoid } from 'nanoid'
-import { Filter } from "./filter"
+import { Filter } from "./Filter"
 import { Form } from "./Forma"
 export const PhoneBook = () => {
     const [contacts, setContacts] = useState([]);
